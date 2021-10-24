@@ -21,3 +21,4 @@ __exportStar(require("./middlewares/require-auth"), exports);
 __exportStar(require("./middlewares/error-handler"), exports);
 __exportStar(require("./middlewares/current-user"), exports);
 __exportStar(require("./repository/Repository"), exports);
+__exportStar(require("./controller/Controller"), exports);
