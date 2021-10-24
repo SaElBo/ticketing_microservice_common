@@ -1,6 +1,6 @@
 {
   "name": "@bousal/common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "common files in ticketing microservice project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
