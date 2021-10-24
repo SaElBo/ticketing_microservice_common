@@ -4,9 +4,15 @@
   "description": "common files in ticketing microservice project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean" : "del-cli ./build/*",
+
+    "build" : "npm run clean && tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.4.4"
+  }
 }
