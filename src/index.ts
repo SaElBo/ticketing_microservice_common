@@ -12,3 +12,5 @@ export * from "./middlewares/error-handler";
 export * from "./middlewares/current-user";
 
 export * from "./repository/Repository";
+
+export * from './controller/Controller'
